@@ -83,7 +83,7 @@ import com.craftcostaserver.sw.data.RandomItems;
 /*  81:    */     }
 /*  82:    */     try
 /*  83:    */     {
-/*  84: 76 */       e = new Bound(arenadat.getString("arenas." + s + ".bound." + "world"), HG.arenaconfig.BC(s, "x"), HG.arenaconfig.BC(s, "y"), HG.arenaconfig.BC(s, "z"), HG.arenaconfig.BC(s, "x2"), HG.arenaconfig.BC(s, "y2"), HG.arenaconfig.BC(s, "z2"));
+/*  84: 76 */       Bound e = new Bound(arenadat.getString("arenas." + s + ".bound." + "world"), HG.arenaconfig.BC(s, "x"), HG.arenaconfig.BC(s, "y"), HG.arenaconfig.BC(s, "z"), HG.arenaconfig.BC(s, "x2"), HG.arenaconfig.BC(s, "y2"), HG.arenaconfig.BC(s, "z2"));
 /*  85:    */     }
 /*  86:    */     catch (Exception e)
 /*  87:    */     {

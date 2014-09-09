@@ -27,7 +27,7 @@
 /* 27:   */   
 /* 28:   */   public void run()
 /* 29:   */   {
-/* 30:26 */     for (Player p : ) {
+/* 30:26 */     for (Player p :HG.plugin.getServer().getOnlinePlayers()) {
 /* 31:28 */       if (p.getInventory().contains(Material.COMPASS))
 /* 32:   */       {
 /* 33:29 */         PlayerData pd = (PlayerData)this.plugin.players.get(p.getName());

@@ -86,7 +86,7 @@
 /*  86: 77 */     for (String s : ags)
 /*  87:    */     {
 /*  88:    */       int level;
-/*  89:    */       Enchantment e;
+/*  89:    */       //Enchantment e;
 /*  90: 78 */       if (s.startsWith("enchant:"))
 /*  91:    */       {
 /*  92: 79 */         s = s.replace("enchant:", "").toUpperCase();
@@ -95,9 +95,9 @@
 /*  95: 82 */         if ((d.length != 1) && (Util.isInt(d[1]))) {
 /*  96: 83 */           level = Integer.parseInt(d[1]);
 /*  97:    */         }
-/*  98: 85 */         for (e : Enchantment.values()) {
-/*  99: 86 */           if (e.getName().equalsIgnoreCase(d[0])) {
-/* 100: 87 */             item.addUnsafeEnchantment(e, level);
+/*  98: 85 */         for (Enchantment es : Enchantment.values()) {
+/*  99: 86 */           if (es.getName().equalsIgnoreCase(d[0])) {
+/* 100: 87 */             item.addUnsafeEnchantment(es, level);
 /* 101:    */           }
 /* 102:    */         }
 /* 103:    */       }
