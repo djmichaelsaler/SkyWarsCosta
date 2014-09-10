@@ -33,8 +33,8 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 31:   */       }
 /* 32:28 */       this.player = ((Player)s);
 /* 33:   */     }
-/* 34:30 */     if (!s.hasPermission("hg." + this.cmdName)) {
-/* 35:31 */       this.sender.sendMessage(ChatColor.RED + "You do not have permission to use: " + ChatColor.GOLD + "/hg " + this.cmdName);
+/* 34:30 */     if (!s.hasPermission("sw." + this.cmdName)) {
+/* 35:31 */       this.sender.sendMessage(ChatColor.RED + "You do not have permission to use: " + ChatColor.GOLD + "/sw " + this.cmdName);
 /* 36:32 */     } else if ((this.forceInGame) && (!HG.plugin.players.containsKey(this.player.getName()))) {
 /* 37:33 */       this.sender.sendMessage(ChatColor.RED + "Your not in a valid game!");
 /* 38:34 */     } else if ((this.forceInRegion) && (!HG.manager.isInRegion(this.player.getLocation()))) {
@@ -51,7 +51,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 49:   */   
 /* 50:   */   public String sendHelpLine()
 /* 51:   */   {
-/* 52:45 */     return "&c/&3hg " + this.cmdName + " &b" + this.usage;
+/* 52:45 */     return "&c/&3sw " + this.cmdName + " &b" + this.usage;
 /* 53:   */   }
 /* 54:   */ }
 

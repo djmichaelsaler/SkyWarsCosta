@@ -68,12 +68,12 @@ import com.craftcostaserver.sw.managers.Manager;
 /*  66: 69 */     this.ism = new ItemStackManager(this);
 /*  67: 70 */     ri = new RandomItems(this);
 /*  68: 71 */     manager = new Manager(this);
-/*  69: 72 */     getCommand("hg").setExecutor(new CommandListener(this));
+/*  69: 72 */     getCommand("sw").setExecutor(new CommandListener(this));
 /*  70: 73 */     getServer().getPluginManager().registerEvents(new WandListener(this), this);
 /*  71: 74 */     getServer().getPluginManager().registerEvents(new CancelListener(this), this);
 /*  72: 75 */     getServer().getPluginManager().registerEvents(new GameListener(this), this);
 /*  73: 76 */     loadCmds();
-/*  74: 77 */     Util.log("Hugergames has been enabled!");
+/*  74: 77 */     Util.log("SkyWarsCosta esta habilitado!");
 /*  75:    */   }
 /*  76:    */   
 /*  77:    */   public void onDisable()
@@ -86,7 +86,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /*  84: 87 */     this.kit = null;
 /*  85: 88 */     this.ism = null;
 /*  86: 89 */     ri = null;
-/*  87: 90 */     Util.log("Hugergames has been disabled!");
+/*  87: 90 */     Util.log("SkyWarsCosta esta habilitado!");
 /*  88:    */   }
 /*  89:    */   
 /*  90:    */   public void loadCmds()
@@ -109,7 +109,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 107:109 */     this.cmds.put("setexit", new SetExitCmd());
 /* 108:110 */     this.cmds.put("delete", new DeleteCmd());
 /* 109:113 */     for (String bc : this.cmds.keySet()) {
-/* 110:114 */       getServer().getPluginManager().addPermission(new Permission("hg." + bc));
+/* 110:114 */       getServer().getPluginManager().addPermission(new Permission("sw." + bc));
 /* 111:    */     }
 /* 112:    */   }
 /* 113:    */   

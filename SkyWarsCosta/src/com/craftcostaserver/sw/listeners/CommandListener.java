@@ -25,7 +25,7 @@ import com.craftcostaserver.sw.commands.BaseCmd;
 /* 23:   */   {
 /* 24:20 */     if ((args.length == 0) || (!this.p.cmds.containsKey(args[0])))
 /* 25:   */     {
-/* 26:21 */       Util.scm(s, "&6*&1&m                           &6*( &3Hungergames &6)*&1&m                           &6*");
+/* 26:21 */       Util.scm(s, "&6*&1&m                           &6*( &3SkyWarsCosta &6)*&1&m                           &6*");
 /* 27:22 */       for (BaseCmd cmd : (BaseCmd[])this.p.cmds.values().toArray(new BaseCmd[0])) {
 /* 28:23 */         if (s.hasPermission("hg." + cmd.cmdName)) {
 /* 29:23 */           Util.scm(s, "  &4- " + cmd.sendHelpLine());

@@ -280,7 +280,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 278:239 */       if (b.getType().equals(Material.WALL_SIGN))
 /* 279:    */       {
 /* 280:240 */         Sign sign = (Sign)b.getState();
-/* 281:241 */         if (sign.getLine(0).equals("" + ChatColor.DARK_BLUE + ChatColor.BOLD + "HungerGames"))
+/* 281:241 */         if (sign.getLine(0).equals("" + ChatColor.DARK_BLUE + ChatColor.BOLD + "SkyWarsCosta"))
 /* 282:    */         {
 /* 283:242 */           Game game = HG.manager.getGame(sign.getLine(1).substring(2));
 /* 284:243 */           if (game == null)
@@ -328,7 +328,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 326:285 */         event.setCancelled(true);
 /* 327:286 */         return;
 /* 328:    */       }
-/* 329:288 */       if ((p.hasPermission("hg.create")) && (HG.manager.getGame(b.getLocation()).getStatus() != Status.RUNNING))
+/* 329:288 */       if ((p.hasPermission("sw.create")) && (HG.manager.getGame(b.getLocation()).getStatus() != Status.RUNNING))
 /* 330:    */       {
 /* 331:289 */         if (b.getType() == Material.CHEST) {
 /* 332:290 */           HG.manager.getGame(b.getLocation()).addChests(b.getLocation());
@@ -365,7 +365,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 363:317 */         event.setCancelled(true);
 /* 364:318 */         return;
 /* 365:    */       }
-/* 366:320 */       if ((p.hasPermission("hg.create")) && (HG.manager.getGame(b.getLocation()).getStatus() != Status.RUNNING)) {
+/* 366:320 */       if ((p.hasPermission("sw.create")) && (HG.manager.getGame(b.getLocation()).getStatus() != Status.RUNNING)) {
 /* 367:321 */         return;
 /* 368:    */       }
 /* 369:323 */       event.setCancelled(true);

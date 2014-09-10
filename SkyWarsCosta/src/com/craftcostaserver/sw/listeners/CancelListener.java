@@ -34,7 +34,7 @@ import com.craftcostaserver.sw.Util;
 /* 32:26 */     String[] st = event.getMessage().split(" ");
 /* 33:27 */     if ((this.plugin.players.containsKey(player.getName())) && (!st[0].equalsIgnoreCase("/login")))
 /* 34:   */     {
-/* 35:28 */       if (st[0].equalsIgnoreCase("/hg"))
+/* 35:28 */       if (st[0].equalsIgnoreCase("/sw"))
 /* 36:   */       {
 /* 37:29 */         if ((st.length >= 2) && (st[1].equalsIgnoreCase("kit")) && (((PlayerData)this.plugin.players.get(player.getName())).getGame().getStatus() == Status.RUNNING))
 /* 38:   */         {

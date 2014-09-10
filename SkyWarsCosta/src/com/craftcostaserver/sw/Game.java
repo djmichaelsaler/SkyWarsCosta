@@ -240,7 +240,7 @@ import com.craftcostaserver.sw.tasks.TimerTask;
 /* 236:    */   {
 /* 237:207 */     String kit = HG.plugin.kit.getKitList();
 /* 238:208 */     Util.scm(p, "&8     ");
-/* 239:209 */     Util.scm(p, "&9&l>----------[&b&lWelcome to HungerGames&9&l]----------<");
+/* 239:209 */     Util.scm(p, "&9&l>----------[&b&lWelcome to SkyWarsCosta&9&l]----------<");
 /* 240:210 */     Util.scm(p, "&9&l - &bPick a kit using &c/hg kit <kit-name>");
 /* 241:211 */     Util.scm(p, "&9&lKits:&b" + kit);
 /* 242:212 */     Util.scm(p, "&9&l>------------------------------------------<");
@@ -385,7 +385,7 @@ import com.craftcostaserver.sw.tasks.TimerTask;
 /* 381:324 */       this.s1 = ((Sign)c.getRelative(face).getState());
 /* 382:325 */       this.s2 = ((Sign)this.s1.getBlock().getRelative(face).getState());
 /* 383:    */       
-/* 384:327 */       this.s.setLine(0, "" + ChatColor.DARK_BLUE + ChatColor.BOLD + "HungerGames");
+/* 384:327 */       this.s.setLine(0, "" + ChatColor.DARK_BLUE + ChatColor.BOLD + "SkyWarsCosta");
 /* 385:328 */       this.s.setLine(1, ChatColor.BOLD + this.name);
 /* 386:329 */       this.s.setLine(2, ChatColor.BOLD + "Click To Join");
 /* 387:330 */       this.s1.setLine(0, "" + ChatColor.DARK_BLUE + ChatColor.BOLD + "Game Status");
@@ -462,11 +462,11 @@ import com.craftcostaserver.sw.tasks.TimerTask;
 /* 458:379 */         Vault.economy.depositPlayer(s, db);
 /* 459:380 */         Player p = Bukkit.getPlayer(s);
 /* 460:381 */         if (p != null) {
-/* 461:382 */           Util.msg(p, "&aYou won " + db + " for winning HungerGames!");
+/* 461:382 */           Util.msg(p, "&aYou won " + db + " for winning SkyWarsCosta!");
 /* 462:    */         }
 /* 463:    */       }
 /* 464:    */     }
-/* 465:386 */     Util.broadcast("&l&3" + Util.translateStop(win) + " &l&bWon HungerGames at arena " + this.name + "!");
+/* 465:386 */     Util.broadcast("&l&3" + Util.translateStop(win) + " &l&bWon SkyWarsCosta at arena " + this.name + "!");
 /* 466:387 */     if (!this.blocks.isEmpty())
 /* 467:    */     {
 /* 468:388 */       new Rollback(this);

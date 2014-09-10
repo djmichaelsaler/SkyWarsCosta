@@ -31,12 +31,12 @@
 /*  31:    */   
 /*  32:    */   public static void log(String s)
 /*  33:    */   {
-/*  34: 28 */     log.info("[HungerGames] " + s);
+/*  34: 28 */     log.info("[SkyWarsCosta] " + s);
 /*  35:    */   }
 /*  36:    */   
 /*  37:    */   public static void warning(String s)
 /*  38:    */   {
-/*  39: 30 */     log.warning("[HungerGames] " + s);
+/*  39: 30 */     log.warning("[SkyWarsCosta] " + s);
 /*  40:    */   }
 /*  41:    */   
 /*  42:    */   public static boolean hp(Player p, String s)

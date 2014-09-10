@@ -19,7 +19,7 @@ import com.craftcostaserver.sw.Util;
 /* 18:16 */     this.timer = 30;
 /* 19:17 */     this.game = g;
 /* 20:18 */     Util.broadcast("&b&l Arena " + g.getName() + " will begin in 30 seconds!");
-/* 21:19 */     Util.broadcast("&b&l Use:&3&l /hg join " + g.getName() + "&b&l to join!");
+/* 21:19 */     Util.broadcast("&b&l Use:&3&l /sw join " + g.getName() + "&b&l to join!");
 /* 22:   */     
 /* 23:21 */     this.id = Bukkit.getScheduler().scheduleSyncRepeatingTask(HG.plugin, this, 100L, 100L);
 /* 24:   */   }
