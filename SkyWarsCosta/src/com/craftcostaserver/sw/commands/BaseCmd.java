@@ -38,7 +38,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 36:32 */     } else if ((this.forceInGame) && (!HG.plugin.players.containsKey(this.player.getName()))) {
 /* 37:33 */       this.sender.sendMessage(ChatColor.RED + "Your not in a valid game!");
 /* 38:34 */     } else if ((this.forceInRegion) && (!HG.manager.isInRegion(this.player.getLocation()))) {
-/* 39:35 */       this.sender.sendMessage(ChatColor.RED + "Your not in a valid HungerGames region!");
+/* 39:35 */       this.sender.sendMessage(ChatColor.RED + "Your not in a valid SkyWars region!");
 /* 40:36 */     } else if (this.argLength > arg.length) {
 /* 41:37 */       Util.scm(s, "&4Wrong usage: " + sendHelpLine());
 /* 42:   */     } else {

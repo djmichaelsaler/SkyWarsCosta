@@ -79,7 +79,7 @@ import com.craftcostaserver.sw.data.Data;
 /* 77:   */           
 /* 78:59 */           Bound b = new Bound(this.player.getWorld().getName(), l.getBlockX(), l.getBlockY(), l.getBlockZ(), l2.getBlockX(), l2.getBlockY(), l2.getBlockZ());
 /* 79:60 */           HG.plugin.games.add(new Game(this.args[1], b, Integer.parseInt(this.args[4]), Integer.parseInt(this.args[2]), Integer.parseInt(this.args[3]), freeroam));
-/* 80:61 */           Util.msg(this.player, ChatColor.GREEN + "You created HungerGames arena " + this.args[1] + "!");
+/* 80:61 */           Util.msg(this.player, ChatColor.GREEN + "You created SkyWars arena " + this.args[1] + "!");
 /* 81:62 */           return true;
 /* 82:   */         }
 /* 83:   */       }

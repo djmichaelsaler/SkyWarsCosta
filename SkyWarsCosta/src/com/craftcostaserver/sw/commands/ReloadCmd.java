@@ -23,7 +23,7 @@ import com.craftcostaserver.sw.managers.KitManager;
 /* 22:   */   
 /* 23:   */   public boolean run()
 /* 24:   */   {
-/* 25:18 */     Util.msg(this.player, "&l&aAttempting to for reload Hungergames!");
+/* 25:18 */     Util.msg(this.player, "&l&aAttempting to for reload SkyWars!");
 /* 26:19 */     HG.plugin.stopAll();
 /* 27:20 */     HG.arenaconfig.saveCustomConfig();
 /* 28:21 */     HG.arenaconfig.reloadCustomConfig();
@@ -38,7 +38,7 @@ import com.craftcostaserver.sw.managers.KitManager;
 /* 37:30 */     new Config(HG.plugin);
 /* 38:31 */     Util.msg(this.player, "&6 - &eConfig values have been reloaded!");
 /* 39:   */     
-/* 40:33 */     Util.msg(this.player, "&l&a- Successfully reloaded HungerGames -");
+/* 40:33 */     Util.msg(this.player, "&l&a- Successfully reloaded SkyWars -");
 /* 41:34 */     return true;
 /* 42:   */   }
 /* 43:   */ }

@@ -53,7 +53,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 51:42 */         HG.arenaconfig.getCustomConfig().set("arenas." + this.args[1], null);
 /* 52:43 */         HG.arenaconfig.saveCustomConfig();
 /* 53:44 */         HG.plugin.games.remove(g);
-/* 54:45 */         Util.msg(this.sender, "&aSuccessfully deleted Hungergames arena!");
+/* 54:45 */         Util.msg(this.sender, "&aSuccessfully deleted SkyWars arena!");
 /* 55:   */       }
 /* 56:   */       catch (Exception e)
 /* 57:   */       {

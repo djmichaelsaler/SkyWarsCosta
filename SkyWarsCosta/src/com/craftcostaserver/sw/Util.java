@@ -49,7 +49,7 @@
 /*  49:    */   
 /*  50:    */   public static void msg(CommandSender sender, String s)
 /*  51:    */   {
-/*  52: 40 */     sender.sendMessage(ChatColor.DARK_RED + "[" + ChatColor.DARK_AQUA + "HungerGames" + ChatColor.DARK_RED + "] " + ChatColor.AQUA + ChatColor.translateAlternateColorCodes('&', s));
+/*  52: 40 */     sender.sendMessage(ChatColor.DARK_RED + "[" + ChatColor.DARK_AQUA + "SkyWars" + ChatColor.DARK_RED + "] " + ChatColor.AQUA + ChatColor.translateAlternateColorCodes('&', s));
 /*  53:    */   }
 /*  54:    */   
 /*  55:    */   public static void scm(CommandSender sender, String s)
@@ -59,7 +59,7 @@
 /*  59:    */   
 /*  60:    */   public static void broadcast(String s)
 /*  61:    */   {
-/*  62: 48 */     Bukkit.getServer().broadcastMessage(ChatColor.DARK_RED + "[" + ChatColor.DARK_AQUA + "HungerGames" + ChatColor.DARK_RED + "] " + ChatColor.AQUA + ChatColor.translateAlternateColorCodes('&', s));
+/*  62: 48 */     Bukkit.getServer().broadcastMessage(ChatColor.DARK_RED + "[" + ChatColor.DARK_AQUA + "SkyWars" + ChatColor.DARK_RED + "] " + ChatColor.AQUA + ChatColor.translateAlternateColorCodes('&', s));
 /*  63:    */   }
 /*  64:    */   
 /*  65:    */   public static boolean isInt(String str)

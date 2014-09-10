@@ -25,7 +25,7 @@
 /* 25:24 */     this.board = this.manager.getNewScoreboard();
 /* 26:25 */     this.ob = this.board.registerNewObjective(ChatColor.GREEN + "Players-Alive:", "dummy");
 /* 27:26 */     this.ob.setDisplaySlot(DisplaySlot.SIDEBAR);
-/* 28:27 */     this.ob.setDisplayName("" + ChatColor.BLUE + ChatColor.BOLD + "HungerGames");
+/* 28:27 */     this.ob.setDisplayName("" + ChatColor.BLUE + ChatColor.BOLD + "SkyWars");
 /* 29:28 */     this.g = g;
 /* 30:   */   }
 /* 31:   */   

@@ -43,7 +43,7 @@ import com.craftcostaserver.sw.managers.Manager;
 /* 41:36 */     c.set("arenas." + g.getName() + ".spawns", d);
 /* 42:37 */     g.addSpawn(l);
 /* 43:38 */     HG.arenaconfig.saveCustomConfig();
-/* 44:39 */     Util.msg(this.player, "You set HungerGames spawn #" + num + "!");
+/* 44:39 */     Util.msg(this.player, "You set SkyWars spawn #" + num + "!");
 /* 45:   */     
 /* 46:41 */     HG.manager.checkGame(g, this.player);
 /* 47:42 */     return true;

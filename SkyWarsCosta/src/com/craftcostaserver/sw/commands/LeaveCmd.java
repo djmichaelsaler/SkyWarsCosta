@@ -23,7 +23,7 @@ import com.craftcostaserver.sw.Util;
 /* 21:   */   public boolean run()
 /* 22:   */   {
 /* 23:17 */     ((PlayerData)HG.plugin.players.get(this.player.getName())).getGame().leave(this.player);
-/* 24:18 */     Util.msg(this.player, "&cYou left Hungergames!");
+/* 24:18 */     Util.msg(this.player, "&cYou left SkyWars!");
 /* 25:19 */     return true;
 /* 26:   */   }
 /* 27:   */ }

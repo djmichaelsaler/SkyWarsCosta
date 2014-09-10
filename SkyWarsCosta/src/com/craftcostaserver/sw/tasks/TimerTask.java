@@ -30,12 +30,7 @@ import com.craftcostaserver.sw.Status;
 /* 29:25 */       stop();
 /* 30:   */     }
 /* 31:27 */     this.remainingtime -= 30;
-/* 32:29 */     if ((this.remainingtime == 30) && (HG.plugin.getConfig().getBoolean("settings.teleport-at-end")))
-/* 33:   */     {
-/* 34:30 */       this.game.msgAll("&l&cThe game is almost over, fight to the death!");
-/* 35:31 */       this.game.respawnAll();
-/* 36:   */     }
-/* 37:32 */     else if (this.remainingtime < 10)
+/* 37:32 */     if (this.remainingtime < 10)
 /* 38:   */     {
 /* 39:33 */       stop();
 /* 40:34 */       this.game.stop();

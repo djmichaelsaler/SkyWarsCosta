@@ -1,9 +1,9 @@
-name: HungerGames
-author: bob7l
-description: A Simple, fun, HungerGames plugin
+name: SkyWarsCosta
+author: djmichaelsaler
+description: A Simple, fun, SkyWars plugin
 version: 3.1
 main: com.craftcostaserver.sw.HG
 softdepend: [Multiverse-Core, MultiWorld, Vault, My Worlds]
 commands:
   sw:
-    description: HungerGames Base command
+    description: SkyWarsCosta Base command
