@@ -241,7 +241,7 @@ import com.craftcostaserver.sw.tasks.TimerTask;
 /* 237:207 */     String kit = HG.plugin.kit.getKitList();
 /* 238:208 */     Util.scm(p, "&8     ");
 /* 239:209 */     Util.scm(p, "&9&l>----------[&b&lWelcome to SkyWarsCosta&9&l]----------<");
-/* 240:210 */     Util.scm(p, "&9&l - &bPick a kit using &c/hg kit <kit-name>");
+/* 240:210 */     Util.scm(p, "&9&l - &bPick a kit using &c/sw kit <kit-name>");
 /* 241:211 */     Util.scm(p, "&9&lKits:&b" + kit);
 /* 242:212 */     Util.scm(p, "&9&l>------------------------------------------<");
 /* 243:    */   }

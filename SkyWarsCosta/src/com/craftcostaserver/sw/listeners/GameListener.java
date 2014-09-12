@@ -26,6 +26,7 @@
 /*  34:    */ import org.bukkit.event.entity.PlayerDeathEvent;
 /*  35:    */ import org.bukkit.event.player.PlayerDropItemEvent;
 /*  36:    */ import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerMoveEvent;
 /*  37:    */ import org.bukkit.event.player.PlayerQuitEvent;
 /*  38:    */ import org.bukkit.inventory.ItemStack;
 /*  39:    */ import org.bukkit.inventory.PlayerInventory;
@@ -93,6 +94,19 @@ import com.craftcostaserver.sw.managers.Manager;
 /*  91:    */       }
 /*  92:    */     }
 /*  93:    */   }
+
+				@EventHandler
+				public void onMove(PlayerMoveEvent event){
+					final Player p = event.getPlayer();
+					PlayerData pd = (PlayerData)this.plugin.players.get(p.getName());
+					
+					if(pd != null){
+						if(!this.plugin.players.get(p.getName()).getGame().getRegion().isInRegion(p.getLocation())){
+							//g.leave(p);
+							p.damage(2.0D);
+						}
+					}
+				}
 /*  94:    */   
 /*  95:    */   @EventHandler
 /*  96:    */   public void onDIe(PlayerDeathEvent event)

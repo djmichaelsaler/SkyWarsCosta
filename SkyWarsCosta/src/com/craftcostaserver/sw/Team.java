@@ -20,7 +20,7 @@
 /* 20:   */   {
 /* 21:21 */     Util.scm(p, "&6*&b&m                                                                             &6*");
 /* 22:22 */     Util.scm(p, "| &f" + this.leader + " &3Just invited you to a &fTeam&3!");
-/* 23:23 */     Util.scm(p, "| &3Type &f/hg team accept &3To join!");
+/* 23:23 */     Util.scm(p, "| &3Type &f/sw team accept &3To join!");
 /* 24:24 */     Util.scm(p, "&6*&b&m                                                                             &6*");
 /* 25:25 */     this.pending.add(p.getName());
 /* 26:   */   }

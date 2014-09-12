@@ -76,7 +76,7 @@ import com.craftcostaserver.sw.Util;
 /*  74: 73 */         Util.msg(this.player, "&c" + p.getName() + " &3Has been invited!");
 /*  75: 74 */         return true;
 /*  76:    */       }
-/*  77: 76 */       Util.msg(this.player, "&cWrong Usage: &3/hg &bteam invite <&cname&b>");
+/*  77: 76 */       Util.msg(this.player, "&cWrong Usage: &3/sw &bteam invite <&cname&b>");
 /*  78:    */     }
 /*  79: 78 */     else if (this.args[1].equalsIgnoreCase("accept"))
 /*  80:    */     {
